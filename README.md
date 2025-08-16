@@ -109,19 +109,9 @@ screen -r ceremony
 
 ---
 
-## 💡 Security Best Practice
-
-For maximum security, **destroy the VPS** once your participation is complete.
-
----
-
 ## ✅ Completion
 
 * After executing the above steps, you will be placed in the contribution queue.
 * Once your turn arrives, the tool will automatically process your contribution.
 * 🎉 Congratulations! You have successfully contributed to the **EthStorage V1 Trusted Setup Ceremony**.
-
----
-
-Would you like me to also create a **one-page quick reference (cheat sheet)** version of this, so participants don’t have to scroll through the full guide while setting up?
 
