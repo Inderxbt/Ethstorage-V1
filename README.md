@@ -23,14 +23,14 @@ This document provides a step-by-step guide to help you securely participate in 
 ### 1️⃣ Update System and Install Dependencies
 
 ```bash
-sudo apt update && apt upgrade -y
+sudo apt update && sudo apt upgrade -y
 sudo apt install -y curl git build-essential
 ```
 
 ### 2️⃣ Install Node.js v18 and npm v9.2
 
 ```bash
-curl -fsSL https://deb.nodesource.com/setup_18.x | bash -
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 sudo apt install -y nodejs
 sudo npm install -g npm@9.2
 ```
