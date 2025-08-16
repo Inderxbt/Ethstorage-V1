@@ -31,8 +31,8 @@ sudo apt install -y curl git build-essential
 
 ```bash
 curl -fsSL https://deb.nodesource.com/setup_18.x | bash -
-apt install -y nodejs
-npm install -g npm@9.2
+sudo apt install -y nodejs
+sudo npm install -g npm@9.2
 ```
 
 ### 3️⃣ Verify Installed Versions
@@ -51,7 +51,7 @@ mkdir ~/trusted-setup-tmp && cd ~/trusted-setup-tmp
 ### 5️⃣ Install Phase2 CLI
 
 ```bash
-npm install -g @p0tion/phase2cli
+sudo npm install -g @p0tion/phase2cli
 ```
 
 ### 6️⃣ Confirm CLI Installation
