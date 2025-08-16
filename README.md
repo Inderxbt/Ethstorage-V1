@@ -23,8 +23,8 @@ This document provides a step-by-step guide to help you securely participate in 
 ### 1️⃣ Update System and Install Dependencies
 
 ```bash
-apt update && apt upgrade -y
-apt install -y curl git build-essential
+sudo apt update && apt upgrade -y
+sudo apt install -y curl git build-essential
 ```
 
 ### 2️⃣ Install Node.js v18 and npm v9.2
